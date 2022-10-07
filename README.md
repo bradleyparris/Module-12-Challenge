@@ -1,5 +1,7 @@
 # Employee Manager
 
+![image](https://user-images.githubusercontent.com/24867485/194604059-e904936f-e8cc-4b7b-a800-ef3a81cd4ff4.png)
+
 ## Description
 Manage a database of your employees right from the terminal! Features include:
 - View employees
