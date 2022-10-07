@@ -161,7 +161,7 @@ function promptDepartment(departmentChoices) {
         console.table("response ", res);
         console.log(res.affectedRows + "Employees are viewed!\n");
 
-        firstPrompt();
+        userPrompt();
       });
     });
 }
@@ -228,7 +228,7 @@ function addEmployee() {
             console.table(res);
             console.log(res.insertedRows + "Inserted successfully!\n");
   
-            firstPrompt();
+            userPrompt();
           });
       });
   }
@@ -275,7 +275,7 @@ function addEmployee() {
           console.table(res);
           console.log(res.affectedRows + "Deleted!\n");
   
-          firstPrompt();
+          userPrompt();
         });
       });
   }
@@ -365,7 +365,7 @@ function addEmployee() {
             console.table(res);
             console.log(res.affectedRows + "Updated successfully!");
   
-            firstPrompt();
+            userPrompt();
           });
       });
   }
@@ -433,7 +433,7 @@ function addEmployee() {
             console.table(res);
             console.log("Role Inserted!");
   
-            firstPrompt();
+            userPrompt();
           });
   
       });
